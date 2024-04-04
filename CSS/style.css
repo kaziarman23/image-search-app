@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: darkgray;
+}
+
 h1 {
     text-align: center;
     font-weight: bolder;
@@ -53,16 +57,18 @@ form {
     margin: 0 auto;
 }
 
-.img {
+.imgs {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    object-fit: cover;
+    margin-bottom: 30px;
+    width: 370px;
+    object-fit: contain;
 }
 
-.img a {
+.imgs a {
     background-color: antiquewhite;
     font-weight: bold;
     padding: 10px;
@@ -72,7 +78,7 @@ form {
     color: black;
 }
 
-.img img {
+.imgs img {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -93,6 +99,7 @@ form {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    display: none;
 }
 
 .footer button:hover {
