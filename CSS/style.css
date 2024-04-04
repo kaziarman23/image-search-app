@@ -45,7 +45,7 @@ form {
     background-color: #0a6a0a;
 }
 
-.results {
+.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
